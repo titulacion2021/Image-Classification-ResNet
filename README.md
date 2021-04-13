@@ -28,7 +28,7 @@ This model was writen in Google Colab and some libraries were used or installed,
  - [Keras] (https://keras.io/)
  - [TensorFlow] (https://www.tensorflow.org/?hl=es-419)
  - [Numpy] (https://numpy.org/)
- - Install bayesian-optimization, GPy, GpyOpt.
+ - Install bayesian-optimization, GPy and GpyOpt.
 
 # Background
 In order to understand this project, a basic understanding of machine learning is requeried. There are also a number of specific resources that were used the ResNet
