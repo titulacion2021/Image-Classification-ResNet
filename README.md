@@ -8,6 +8,10 @@ Hyperparameters were fixed using a Bayesian hyperparameter optimization approach
 Experimental results showed that techniques applied to ResNet architecture helps to obtain good accuracy and training performance when a small
 data sets and limited computational resources are available.
 
+# Files
+You will find two .ipynb files. The firts one is fot the pre-processing of the images and the second one you will find PCA, ResNet, Bayesian Optimization 
+and the final results. 
+
 # Data
 The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images). If you want to run 
 the project, you will have to download these images. Each folder has name, such as, pneumonia, covid and normal, in order to identify the different images. 
