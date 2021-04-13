@@ -34,5 +34,5 @@ This model was writen in Google Colab and some libraries were used or installed,
 This project has a PDF report, where it is explained and analized the code and the results. 
 
 # License
-poner explicaci[on y link de la licencia
+This project uses the nect license [https://github.com/titulacion2021/Image-Classification-ResNet/blob/main/LICENSE]
 
