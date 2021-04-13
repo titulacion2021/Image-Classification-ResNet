@@ -1,3 +1,4 @@
+#ResNet
 In this work we implement a Residual Convolutional Neural Network (ResNet) for COVID-19 medical image (CXR) classification task. 
 ResNet solves the vanishing gradient problem, allowing deeper networks constructions by adding more layers and making the algorithm easier to train.
 A dimensional reduction technique (PCA) is used for an efficient usage of the available computational resources. 
