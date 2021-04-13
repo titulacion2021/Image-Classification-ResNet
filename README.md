@@ -30,6 +30,14 @@ This model was writen in Google Colab and some libraries were used or installed,
  - [Numpy] (https://numpy.org/)
  - Install bayesian-optimization, GPy, GpyOpt.
 
+# Background
+In order to understand this project, a basic understanding of machine learning is requeried. There are also a number of specific resources that were used the ResNet
+was developed:
+- [Standford Course] (https://cs231n.github.io/)
+- [Jiang, et al 2019] (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214587)
+- [TensorFlow tutorials] (https://www.tensorflow.org/versions/r0.11/tutorials/index.html)
+- [Goodfellow et al. 2013] (https://arxiv.org/pdf/1312.6082v4.pdf)
+
 # Accompanying Report
 This project has a PDF report, where it is explained and analized the code and the results. 
 
