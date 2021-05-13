@@ -9,16 +9,15 @@ Experimental results showed that techniques applied to ResNet architecture helps
 data sets and limited computational resources are available.
 
 # Files
-You will find two .ipynb files. The firts one is fot the pre-processing of the images and the second one you will find PCA, ResNet, Bayesian Optimization 
-and the final results. 
+You will find two .ipynb files. The 'Pre_processing.ipynb' is the code related to the whole data set preprocessing (*RGB2GRAY, RESIZE, CLAHE*). The second file 'ResNet.ipynb' is related to the processed images loading, Exploratory Data Analysis, Principal Component Analysis, Bayesian Optimization and the ResNet model with their final results.
+
+It is not necessary to run the first file, since the uploaded dataset images are already enhaced, however feel free to use this code to pre-process aditional chest-CXR images. The second file 'ResNet.ipynb' will load the whole data sets from a Google Drive directory so be sure to update the directories in the loading data section. In next sections you will see the Bayesian Hyperparameter optimization experiments. Finally the ResNet is shown with the optimal found hyperparameters.
 
 # Data
-The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images). If you want to run 
-the project, you will have to download these images. Each folder has name, such as, pneumonia, covid and normal, in order to identify the different images. 
+The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images).However, the processed enhaced images are available in the folder DataSet. This folder contains the images related to the training, validation and test set. 
 
 # Computational Requeriments
-This is a deep learning convolutional neural networf, so it will require good computational resources, in order to obtain the final result. If you don´t 
-have the enough resourses, you could run this model on a powerful cloud or decrease the number of epochs. 
+This is a deep learning convolutional neural networK, so it will require good computational resources, in order to obtain the final result. The Bayesian Hyperparameter Optimization needs 2.79 available memory RAM while the ResNet model with the optimized hyperparameters needs 15.79 memory RAM. If this resources are not available for running the code you can use Google Colaboratory PRO.
 
 # Software Dependecies
 This model was writen in Google Colab and some libraries were used or installed, such as:
