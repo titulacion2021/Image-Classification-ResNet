@@ -21,7 +21,9 @@ This is a deep learning convolutional neural networK, so it will require good co
 # Test Results
 
 Covid (Class 0)        0.84      1.00      0.91        21
+
 Normal (Class 1)       1.00      1.00      1.00        21
+
 Pneumonia(Class 2)     1.00      0.81      0.89        21
 
           accuracy                           0.94        63
