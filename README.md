@@ -14,22 +14,20 @@ You will find two .ipynb files. The 'Pre_processing.ipynb' is the code related t
 It is not necessary to run the first file, since the uploaded dataset images are already enhaced, however feel free to use this code to pre-process aditional chest-CXR images. The second file 'ResNet.ipynb' will load the whole data sets from a Google Drive directory so be sure to update the directories in the loading data section. In next sections you will see the Bayesian Hyperparameter optimization experiments. Finally the ResNet is presented with the optimal found hyperparameters.
 
 # Data
-The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images).However, the processed enhaced images are available in the folder DataSet. This folder contains the images related to the training, validation and test set. 
+The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images).However, the processed enhaced images are available in the folder DataSet and are splited in 70% for training, 15% for validation and 15% for testint. Hence, this folder contains the images related to the training (294 samples), validation (63 samples) and test set (63 samples). 
 
 # Computational Requeriments
 This is a deep learning convolutional neural networK, so it will require good computational resources, in order to obtain the final result. The Bayesian Hyperparameter Optimization needs 2.79 available memory RAM while the ResNet model with the optimized hyperparameters needs 15.79 memory RAM. If this resources are not available for running the code you can use Google Colaboratory PRO.
 # Test Results
 
-                    precision    recall  f1-score   support
+                                precision    recall  f1-score   support
 
-   Covid (Class 0)       0.84      1.00      0.91        21
-  Normal (Class 1)       1.00      1.00      1.00        21
-Pneumonia(Class 2)       1.00      0.81      0.89        21
+          Covid (Class 0)          0.84      1.00      0.91        21
+          Normal (Class 1)         1.00      1.00      1.00        21
+          Pneumonia(Class 2)       1.00      0.81      0.89        21
 
-          accuracy                           0.94        63
-         macro avg       0.95      0.94      0.94        63
-      weighted avg       0.95      0.94      0.94        63
-
+                    accuracy                           0.94        63
+         
 
 # Software Dependecies
 This model was writen in Google Colab and some libraries were used or installed, such as:
