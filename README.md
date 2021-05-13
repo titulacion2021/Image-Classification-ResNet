@@ -19,13 +19,13 @@ The original data was obtanined from Github (https://github.com/abzargar/COVID-C
 # Computational Requeriments
 This is a deep learning convolutional neural networK, so it will require good computational resources, in order to obtain the final result. The Bayesian Hyperparameter Optimization needs 2.79 available memory RAM while the ResNet model with the optimized hyperparameters needs 15.79 memory RAM. If this resources are not available for running the code you can use Google Colaboratory PRO.
 # Test Results
-   Covid (Class 0)       0.84      1.00      0.91        21
-  Normal (Class 1)       1.00      1.00      1.00        21
-Pneumonia(Class 2)       1.00      0.81      0.89        21
+
+Covid (Class 0)        0.84      1.00      0.91        21
+Normal (Class 1)       1.00      1.00      1.00        21
+Pneumonia(Class 2)     1.00      0.81      0.89        21
 
           accuracy                           0.94        63
-         macro avg       0.95      0.94      0.94        63
-      weighted avg       0.95      0.94      0.94        63
+
 
 # Software Dependecies
 This model was writen in Google Colab and some libraries were used or installed, such as:
