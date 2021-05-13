@@ -11,7 +11,7 @@ data sets and limited computational resources are available.
 # Files
 You will find two .ipynb files. The 'Pre_processing.ipynb' is the code related to the whole data set preprocessing (*RGB2GRAY, RESIZE, CLAHE*). The second file 'ResNet.ipynb' is related to the processed images loading, Exploratory Data Analysis, Principal Component Analysis, Bayesian Optimization and the ResNet model with their final results.
 
-It is not necessary to run the first file, since the uploaded dataset images are already enhaced, however feel free to use this code to pre-process aditional chest-CXR images. The second file 'ResNet.ipynb' will load the whole data sets from a Google Drive directory so be sure to update the directories in the loading data section. In next sections you will see the Bayesian Hyperparameter optimization experiments. Finally the ResNet is shown with the optimal found hyperparameters.
+It is not necessary to run the first file, since the uploaded dataset images are already enhaced, however feel free to use this code to pre-process aditional chest-CXR images. The second file 'ResNet.ipynb' will load the whole data sets from a Google Drive directory so be sure to update the directories in the loading data section. In next sections you will see the Bayesian Hyperparameter optimization experiments. Finally the ResNet is presented with the optimal found hyperparameters.
 
 # Data
 The original data was obtanined from Github (https://github.com/abzargar/COVID-Classifier/tree/master/dataset/original_images).However, the processed enhaced images are available in the folder DataSet. This folder contains the images related to the training, validation and test set. 
